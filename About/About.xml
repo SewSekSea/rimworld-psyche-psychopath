@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Psychopath</name>
+  <author>T&amp;B Modding</author>
+  <packageId>psychopath.absence</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>The base game already has psychopaths. It just never worked out what it is like to live with one.
+
+Vanilla gives the Psychopath a short list of things that do not upset them, and stops there. It is entirely a private discount: fewer mood penalties, nobody else affected. This mod adds the other side of it.
+
+No new trait
+This works on the Psychopath the base game already has. Every colonist in your save who has ever had it is covered, and there is no second trait to argue with the first one.
+
+Being the steady one
+The worse everybody else is doing, the better a psychopath feels. When the colony is coming apart and they are the only person still eating properly and sleeping through the night, that is the best they have felt in years.
+
+A psychopath in a contented colony gets nothing from this at all. It only pays out when there is something to be unlike.
+
+The colony notices
+Colonists having a hard time register that this person never does. They think less of them for it - not for anything the psychopath did, but for what they conspicuously did not do while everyone else was in pieces.
+
+Nothing in RimWorld models a social cost for an absence. This does.
+
+Glad it was them
+The other half. Somebody has to do the things nobody wants to do, and a colonist who will not lie awake over it afterwards is worth having. The people who would have carried it are quietly relieved it fell to somebody who will not, and think better of them for it.
+
+It is the same event that gives everybody else a conscience. The psychopath takes the job and takes no weight from it.
+
+Settings
+Options - Mod settings - Psychopath. Adjust how much being the steady one is worth, what counts as struggling, and how bad it has to get before it peaks. All three behaviours can be switched off.
+
+What a psychopath does not feel is not adjustable, because the base game already decides that. What this adds is what it costs everybody else.
+
+Requires Harmony. Safe to add to an existing save. RimWorld 1.6, no DLC needed.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>grief.mourning</li>
+    <li>guilt.conscience</li>
+    <li>mettle.growth</li>
+    <li>company.presence</li>
+  </loadAfter>
+</ModMetaData>

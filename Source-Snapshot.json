@@ -1,0 +1,76 @@
+{
+  "name": "Psychopath",
+  "packageId": "psychopath.absence",
+  "assemblyName": "Psychopath",
+  "repositoryName": "rimworld-psyche-psychopath",
+  "workshopId": "3805806981",
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Psyche Mods/Psychopath",
+  "sourceSnapshotUtc": "2026-10-28T17:10:13.859Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "73471413FE4C094A39B5A846CDD5C9A9EDD5BA284A03AE0294C4D3FD03197F2C",
+      "bytes": 2713
+    },
+    {
+      "path": "About/Preview.png",
+      "sha256": "971EAFEA13BA7ADE29E9CD3CF162FCEC1D78825206935C91168AA6E77A942E93",
+      "bytes": 71874
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "sha256": "5BEB63261F59A6CE62757C830B0DA3900AB0616E24B4BDDF5FDDCF44B610BC2E",
+      "bytes": 10
+    },
+    {
+      "path": "Defs/ThoughtDefs/Psychopath_Thoughts.xml",
+      "sha256": "9ED667611E2558FE392777F2404FAF461854432F6B0D16842605D384D364C30C",
+      "bytes": 3805
+    },
+    {
+      "path": "Source/Psychopath/Bridges.cs",
+      "sha256": "E21AE8B2B7DC9762D0FF96AEEDE384A795232DF47B917DB80020A845DC323E6F",
+      "bytes": 1364
+    },
+    {
+      "path": "Source/Psychopath/HarmonyPatches.cs",
+      "sha256": "FB6A7EADAF7C9C172F2E5EB504981DF4C7DCD6D90C82BC60AC21772151B71F26",
+      "bytes": 2414
+    },
+    {
+      "path": "Source/Psychopath/Noticing.cs",
+      "sha256": "AAE86186651250EF143E69576A37DBAA35A1B0203608C06273A1003346C9E7B3",
+      "bytes": 3062
+    },
+    {
+      "path": "Source/Psychopath/Psychopath.csproj",
+      "sha256": "B772F361703E7F9A7AD1BB008F679D378B4836F700176989FD03811188C2C60B",
+      "bytes": 1635
+    },
+    {
+      "path": "Source/Psychopath/PsychopathCore.cs",
+      "sha256": "64E0139E23090B2A8B28ED75B6B9DB719F42812E9EFE8FB33E9494B848C7E12E",
+      "bytes": 3626
+    },
+    {
+      "path": "Source/Psychopath/Settings.cs",
+      "sha256": "3DBBF2DE3469EC5F1B0CBCFE145FDC9BDDE940E8EF843E7688046925DE0D4AFF",
+      "bytes": 3777
+    },
+    {
+      "path": "Source/Psychopath/Workers.cs",
+      "sha256": "05A9D0510E68B9C57EA9E2C74A4B0BA6600692908978589A11F09EBBC5B0CB10",
+      "bytes": 2397
+    }
+  ],
+  "stagedProjectAdjustments": [],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "7BF7B0339547F1DAE57ED2DF5AC59DF93426201C76AE87686F51B81282E24FAF"
+}

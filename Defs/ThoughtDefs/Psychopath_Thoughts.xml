@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    Steady while everybody else is not.
+    Five stages: the worse the colony is doing, the further up this goes. Nothing else in the game
+    pays a colonist for other people's suffering, which is exactly the point of it.
+  -->
+  <ThoughtDef>
+    <defName>PS_Unbothered</defName>
+    <thoughtClass>Psychopath.Thought_Unbothered</thoughtClass>
+    <workerClass>Psychopath.ThoughtWorker_Unbothered</workerClass>
+    <stages>
+      <li>
+        <label>everyone seems fine</label>
+        <description>Nothing much going on. People are getting on with it.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>a bit of an atmosphere</label>
+        <description>One or two of them are having a hard week. I can tell because they keep saying so.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>everyone is struggling except me</label>
+        <description>Something has gone wrong with all of them at once. They sit about not eating.\n\nI slept fine.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>the place is coming apart</label>
+        <description>They are barely functioning. Crying in the corridor, forgetting to eat, taking three days to do a morning's work.\n\nI have never felt better. I do not know what that says about me and I am not going to think about it.</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>somebody has to keep this place running</label>
+        <description>Every single one of them is in pieces. The whole colony is held together by me, because I am the only one it has not touched.\n\nIt is the best I have felt in years.</description>
+        <baseMoodEffect>18</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    What the rest of them make of it. Not about anything the psychopath did: about what they
+    conspicuously did not do, while everyone around them was in bits.
+  -->
+  <ThoughtDef>
+    <defName>PS_DidntEvenFlinch</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>30</durationDays>
+    <stackLimit>8</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>didn't even flinch</label>
+        <baseOpinionOffset>-13</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PS_DidntEvenFlinchMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PS_DidntEvenFlinchMood</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>somebody here is untouched by it</label>
+        <description>The rest of us are wrecked and they are exactly the same as they were before it happened. Eating properly. Sleeping.\n\nI cannot work out whether I envy them or whether it frightens me.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    The other half of it. When there is something foul to be done, the colonist who is not going
+    to lie awake over it is worth having, and people know it.
+  -->
+  <ThoughtDef>
+    <defName>PS_GladItWasThem</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>glad it was them and not me</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
